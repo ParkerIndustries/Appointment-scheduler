@@ -1,0 +1,36 @@
+.banner {
+    height: 580px;
+    position: relative;
+    background: url("https://lockstresshair.com/pub/static/frontend/ogani/ogani_home4/en_US/images/banner1.jpg") center;
+}
+
+.banner__info {
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-top: 80px;
+    width: 35%;
+}
+
+.banner__title {
+    font-size: max(4vw, 30px);
+    font-weight: bolder;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__info > h3 {
+    margin-top: 10px;
+}

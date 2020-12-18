@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header__icon {
+    object-fit: contain;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.header__menu {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    margin-left: 40px;
+}
