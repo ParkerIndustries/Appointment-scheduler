@@ -13,17 +13,7 @@ function Booking() {
     return (
         <div className='booking'>
             <h1>Réservation</h1>
-            <div>
-                <select
-                    defaultValue={addrtype}
-                    onChange={handleAddrTypeChange}
-                    className="browser-default custom-select">
-                    <option value="1">Home</option>
-                    <option value="2">Marketing</option>
-                    <option value="3">Work</option>
-                    <option value="3">Head Office</option>
-                </select>
-            </div>
+            <p>En construction</p>
         </div>
     )
 }
